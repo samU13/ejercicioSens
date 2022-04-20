@@ -107,6 +107,7 @@ header {
 }
 
 .main__container {
+    min-height: 620px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -165,7 +166,7 @@ header {
     z-index: 1;
     position:absolute;
     background-color: var(--clr-second);
-    top: 34em;
+    top: 38em;
     height: 160px;
     width: 125px;
 }
@@ -180,6 +181,7 @@ header {
 }
 
 footer{
+    bottom: 0px;
     margin-bottom: 0px;
 }
 .footer__container{
