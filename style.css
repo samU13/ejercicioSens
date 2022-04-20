@@ -44,10 +44,14 @@ a:hover {
 }
 
 body {
+    position: relative;
     font-family: 'Ubuntu Mono', monospace;
     width: 100%;
-    height: auto;
+    min-height: 100vh;
     font-size: var(--font-size-300);
+}
+.contentwrap{
+    padding-bottom: 150px;
 }
 
 header {
@@ -107,7 +111,6 @@ header {
 }
 
 .main__container {
-    min-height: 620px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -166,7 +169,7 @@ header {
     z-index: 1;
     position:absolute;
     background-color: var(--clr-second);
-    top: 38em;
+    top: 36em;
     height: 160px;
     width: 125px;
 }
@@ -181,6 +184,8 @@ header {
 }
 
 footer{
+    position: absolute;
+    width: 100%;
     bottom: 0px;
     margin-bottom: 0px;
 }
